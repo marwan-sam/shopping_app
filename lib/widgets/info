@@ -1,0 +1,7 @@
+// import 'package:simple_gradient_text/simple_gradient_text.dart';
+// when use lib () -> mix between multi colors for this text:
+          // GradientText(
+          //   "txt",
+          //   style: ..,
+          //   colors: [...],
+          // ),
