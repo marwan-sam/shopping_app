@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app/view/menu/side_menu.dart';
 import 'package:shopping_app/view/cart_view.dart';
 import 'package:shopping_app/view/payments_card_view.dart';
 import 'package:shopping_app/view/product_view.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         "cartV": (context) => const CartUI(),
         "itemProductV": (context) => const ProductItemUI(),
         "creditCardV": (context) => PaymentsCreditCard(),
+        "slideMenuV": (context) => const SlideMenu(),
       },
     );
   }
