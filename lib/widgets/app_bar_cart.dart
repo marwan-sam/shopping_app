@@ -16,7 +16,7 @@ class AppBarCart extends StatelessWidget {
           // icon
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, "/");
+              Navigator.pushNamed(context, "homeV");
             },
             child: const Icon(
               FontAwesomeIcons.backward,
