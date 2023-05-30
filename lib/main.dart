@@ -7,6 +7,7 @@ import 'package:shopping_app/wakelockScreen.dart';
 
 import 'const.dart';
 import 'view/home_view.dart';
+import 'view/splash_view.dart';
 
 void main() {
   NotLockScreen();
@@ -26,11 +27,12 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: colorWhite,
       ),
       routes: {
-        "/": (context) => const HomeUI(),
+        "/": (context) => const SplashUI(),
+        "homeV": (context) => const HomeUI(),
         "cartV": (context) => const CartUI(),
         "itemProductV": (context) => const ProductItemUI(),
         "creditCardV": (context) => PaymentsCreditCard(),
-        "slideMenuV": (context) => const SlideMenu(),
+        "slideMenuV": (context) => SlideMenu(),
       },
     );
   }

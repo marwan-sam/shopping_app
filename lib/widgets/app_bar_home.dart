@@ -14,10 +14,15 @@ class AppBarHome extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       child: Row(
         children: [
-          const Icon(
-            FontAwesomeIcons.list,
-            color: firstColor,
-            size: 20,
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, "slideMenuV");
+            },
+            child: const Icon(
+              FontAwesomeIcons.list,
+              color: firstColor,
+              size: 20,
+            ),
           ),
           const SizedBox(width: 10),
           GradientText(

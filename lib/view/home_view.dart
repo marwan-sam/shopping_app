@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../const.dart';
+import '../widgets/app_bar_home.dart';
 import '../widgets/body_of_home_ui.dart';
 import 'cart_view.dart';
+import 'menu/side_menu.dart';
 
 class HomeUI extends StatefulWidget {
   const HomeUI({super.key});
@@ -32,6 +34,7 @@ class _HomeUIState extends State<HomeUI> {
 
   // --
   int page = 0;
+  bool x = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

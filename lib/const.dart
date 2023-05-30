@@ -15,8 +15,9 @@ const listMixSecBackColors = [
   secColor,
 ];
 const styleTitleApp = TextStyle(
-  fontSize: 30,
+  fontSize: 35,
   fontWeight: FontWeight.bold,
+  fontFamily: "SquadaOne",
 );
 
 // List of Categories
